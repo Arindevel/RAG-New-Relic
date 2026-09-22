@@ -1,0 +1,27 @@
+New Relic APM Troubleshooting Guide
+
+High Response Time:
+If an application shows high response time in New Relic APM, investigate transaction traces, external service calls, database queries, CPU utilization, and error rates.
+
+Transaction Traces:
+Transaction traces can help identify slow transactions and show where an application spends most of its execution time.
+
+Database Performance:
+Slow database queries can increase application response time. Review database query performance and identify transactions with unusually high database time.
+
+External Services:
+Calls to external APIs or services can increase application response time. Review external service segments in transaction traces.
+
+CPU Utilization:
+High CPU utilization can contribute to application latency. Check infrastructure metrics and correlate CPU usage with application response time.
+
+Error Rate:
+An increase in application errors may indicate an underlying application or infrastructure problem. Compare error rate with response time and throughput.
+
+Recommended Investigation:
+1. Check APM response time.
+2. Review transaction traces.
+3. Check database performance.
+4. Check external service calls.
+5. Check CPU and infrastructure metrics.
+6. Compare error rate and throughput.

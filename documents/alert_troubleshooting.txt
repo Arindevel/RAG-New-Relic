@@ -1,0 +1,26 @@
+New Relic Alert Troubleshooting Guide
+
+CPU Alert:
+A CPU alert indicates that CPU utilization has exceeded the configured threshold.
+
+When investigating a CPU alert, check:
+1. Current CPU utilization.
+2. CPU utilization over time.
+3. Which application or process is consuming CPU.
+4. Application response time.
+5. Error rate.
+6. Recent deployments or configuration changes.
+
+Memory Alert:
+A memory alert indicates that memory utilization has exceeded the configured threshold.
+
+When investigating a memory alert, check:
+1. Current memory utilization.
+2. Memory utilization trend.
+3. Application workload.
+4. Garbage collection if applicable.
+5. Recent deployments.
+6. Application errors.
+
+Alert Investigation:
+Always correlate infrastructure metrics with APM application metrics before determining the root cause.
